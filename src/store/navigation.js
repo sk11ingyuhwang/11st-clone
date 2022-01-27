@@ -3,6 +3,8 @@ export default {
   state: () =>({
     // 데이터는 항상 팩토리 함수로 만들어야 한다.
     isSHow : false,
+    isShowLNB: false,
+    isShowRNB: false,
   }),
   mutations:{
       setState(state, payload){
