@@ -4,6 +4,7 @@
   <TheHeader />
   <Billboard />
   <Direct />
+  <HotFocus />
 
   <!-- <RouterView /> -->
 </template>
@@ -14,7 +15,7 @@ import TheHeader from '~/components/TheHeader'
 import Billboard from '~/components/Billboard'
 import RNB from '~/components/RNB'
 import Direct from '~/components/Direct'
-
+import HotFocus from '~/components/HotFocus'
 
 export default {
   components: {
@@ -23,6 +24,7 @@ export default {
     Billboard,
     RNB,
     Direct,
+    HotFocus,
   }
 }
 </script>
