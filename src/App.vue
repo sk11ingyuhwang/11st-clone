@@ -3,6 +3,7 @@
   <RNB />
   <TheHeader />
   <Billboard />
+  <Direct />
 
   <!-- <RouterView /> -->
 </template>
@@ -12,6 +13,7 @@ import LNB from '~/components/LNB'
 import TheHeader from '~/components/TheHeader'
 import Billboard from '~/components/Billboard'
 import RNB from '~/components/RNB'
+import Direct from '~/components/Direct'
 
 
 export default {
@@ -20,6 +22,7 @@ export default {
     TheHeader,
     Billboard,
     RNB,
+    Direct,
   }
 }
 </script>
